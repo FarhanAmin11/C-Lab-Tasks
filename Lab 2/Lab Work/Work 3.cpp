@@ -10,5 +10,5 @@ int main()
     	cout<<F <<"  farheight";
 	
 
-return 0;
+return 0; // program end karta hai
 }

@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int day;
+    int day; // variable ko declare kiya hai
 
     // ye user se input number leta hai
     cout << "Enter a number between 1 and 7: ";
@@ -12,7 +12,7 @@ int main() {
     switch(day) {
         case 1:
             cout << "Monday";
-            break;
+            break; // ye code ko yaha per rok deta hdeta hai agar condition fulfill hu jaye
         case 2:
             cout << "Tuesday";
             break;
@@ -31,7 +31,7 @@ int main() {
         case 7:
             cout << "Sunday";
             break;
-        default:
+        default: // agar koi bhi condition fulfill na hu to use ye messgae mile ga
             cout << "Invalid Expression";
     }
 

@@ -9,7 +9,7 @@ int main() {
     char charVar = 'A'; //  CHARACTER LIKHNY K LIYR
     bool boolVar = true;
 
-    // Printing values, sizes, and memory locations
+    // values, sizes, or memory locations ko print karne ke leye
     cout << "INT VARIABLE" << endl;
     cout << "Value: " << a << endl;
     cout << "Size: " << sizeof(a) << " bytes" << endl;
@@ -35,5 +35,5 @@ int main() {
     cout << "Size: " << sizeof(boolVar) << " bytes" << endl;
     cout << "Memory Address: " << &boolVar << endl;
 
-    return 0;
+    return 0; // program end karta hai
 }
