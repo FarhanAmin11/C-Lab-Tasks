@@ -1,13 +1,29 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int getsquare(int number){
 
-    int square=number*number;
-    cout<<square<<"is square of number"<<endl;
+// Function that returns square of a number
+int getSquare(int number)
+{
+    // Calculate square
+    int result = number * number;
+
+    // Return result
+    return result;
 }
 
-int main(){
+int main()
+{
+    int num, square;
 
-    getsquare(5);
+    // Input from user
+    cout << "Enter a number: ";
+    cin >> num;
 
+    // Function call
+    square = getSquare(num);
+
+    // Display result
+    cout << "Square = " << square << endl;
+
+    return 0;
 }

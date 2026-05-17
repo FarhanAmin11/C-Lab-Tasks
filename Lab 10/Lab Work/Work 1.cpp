@@ -1,15 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int multiply(int num1,int num2){
+// Function with parameters
+void multiply(int num1, int num2)
+{
+    // Calculate product
+    int product = num1 * num2;
 
-    int product = num1*num2;
-    return product;
-    }
+    // Display result
+    cout << "Product = " << product << endl;
+}
 
-int main(){
+int main()
+{
+    // Function call with two numbers
+    multiply(5, 4);
 
-   int product=multiply(6,3);
-   cout<<product<<"is the product"<<endl;   
-    }
-    
+    return 0;
+}
